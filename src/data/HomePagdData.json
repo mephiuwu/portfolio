@@ -2,7 +2,7 @@
   "hero": {
     "imgUrl": "/images/OIG_2.png",
     "name": "Ramiro Sáez",
-    "heading": "¡Hoola! Soy Ramiro.",
+    "heading": "¡Hoola! Soy Ramiro",
     "typingText": ["Desarrollador Backend", 1500, "Desarrollador Frontend", 1500],
     "description": "Soy ingeniero informático. Mi experiencia se ha centrado en el trabajo colaborativo para el mantenimiento y mejora continua de aplicaciones. Utilizo metodologías ágiles, destacando en el desarrollo con Vue.js y Laravel para crear soluciones innovadoras y eficientes.",
     "btnText": "Contáctame",
