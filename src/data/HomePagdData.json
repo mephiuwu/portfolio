@@ -1,0 +1,280 @@
+{
+  "hero": {
+    "imgUrl": "/images/OIG_2.png",
+    "name": "Ramiro Sáez",
+    "heading": "¡Hoola! Soy Ramiro.",
+    "typingText": ["Desarrollador Backend", 1500, "Desarrollador Frontend", 1500],
+    "description": "Soy ingeniero informático. Mi experiencia se ha centrado en el trabajo colaborativo para el mantenimiento y mejora continua de aplicaciones. Utilizo metodologías ágiles, destacando en el desarrollo con Vue.js y Laravel para crear soluciones innovadoras y eficientes.",
+    "btnText": "Contáctame",
+    "btnUrl": "contactus"
+  },
+  "socialBtns": [
+    {
+      "icon": "fa-brands:linkedin-in",
+      "iconBgClass": "linkedin",
+      "href": "https://www.linkedin.com/in/rsaezsa/"
+    },
+    {
+      "icon": "fa-brands:github",
+      "iconBgClass": "github",
+      "href": "https://github.com/mephiuwu"
+    }
+  ],
+  "brands": [
+    {
+      "src": "/images/Laravel.png",
+      "alt": "Laravel",
+      "height" : "100px",
+      "maxWidth" : "120px"
+    },
+    {
+      "src": "/images/Vue.png",
+      "alt": "VueJs",
+      "height" : "100px",
+      "maxWidth" : "120px"
+    },
+    {
+      "src": "/images/Php.png",
+      "alt": "PHP",
+      "height" : "100px",
+      "maxWidth" : "160px"
+    },
+    {
+      "src": "/images/Mysql.png",
+      "alt": "MySql",
+      "height" : "100px",
+      "maxWidth" : "120px"
+    },
+    {
+      "src": "/images/Javascript.png",
+      "alt": "JavaScript",
+      "height" : "100px",
+      "maxWidth" : "120px"
+    },
+    {
+      "src": "/images/Postman.png",
+      "alt": "Postman",
+      "height" : "100px",
+      "maxWidth" : "120px"
+    }
+  ],
+  "about": {
+    "imgSrc": "/images/about-me.png",
+    "miniTitle": "Sobre mí",
+    "title": "Aprender es <span>AVANZAR</span>",
+    "description": "Tengo 25 años y mi viaje en el mundo de la programación comenzó a los 18 cuando ingresé a estudiar Ingeniería en la Universidad del Bío-Bío. A lo largo de mi carrera como estudiante y profesional, he enfrentado diversos desafíos, de los cuales siempre he aprendido algo valioso. Inicié en el desarrollo web utilizando Laravel y jQuery, y a medida que ha evolucionado, he adoptado el stack Laravel y Vue.js. He participado en proyectos variados, desde aserraderos y multitiendas hasta casinos y plataformas gastronómicas. Poseo experiencia tanto en trabajo en equipo como en proyectos individuales. Me considero una persona autodidacta, entusiasta, optimista y siempre con hambre de aprender. Creo firmemente que siempre hay margen para mejorar y algo nuevo que descubrir. Actualmente, trabajo como desarrollador fullstack y, de forma autodidacta, estoy explorando NestJs y Next.js para expandir mis habilidades. ✌️",
+    "funfacts": [
+      {
+        "title": "Años de experiencia",
+        "number": 2
+      }
+    ],
+    "btnText": "Contáctame",
+    "btnUrl": "contactus"
+  },
+  "projects": {
+    "sectionHeading": {
+      "miniTitle": "My Work",
+      "title": "RECENT PROJECT"
+    },
+    "allProjects": [
+      {
+        "thumbUrl": "/images/popup-project-1.jpg",
+        "title": "Website Design",
+        "subTitle": "Web Design, App Design",
+        "details": {
+          "title": "Website Design for Marketing Agency Startup",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br>xcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "type": "Website",
+          "langages": "PHP, HTML, CSS, JS",
+          "platform": "WordPress",
+          "country": "USA",
+          "url": "www.example.com"
+        }
+      },
+      {
+        "thumbUrl": "/images/popup-project-2.jpg",
+        "title": "Website Design",
+        "subTitle": "Web Design, App Design",
+        "details": {
+          "title": "Website Design for Marketing Agency Startup",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br>xcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "type": "Website",
+          "langages": "PHP, HTML, CSS, JS",
+          "platform": "WordPress",
+          "country": "USA",
+          "url": "www.example.com"
+        }
+      },
+      {
+        "thumbUrl": "/images/popup-project-3.jpg",
+        "title": "Dashboard Design",
+        "subTitle": "Web Design, App Design",
+        "details": {
+          "title": "Website Design for Marketing Agency Startup",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br>xcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "type": "Website",
+          "langages": "PHP, HTML, CSS, JS",
+          "platform": "WordPress",
+          "country": "USA",
+          "url": "www.example.com"
+        }
+      },
+      {
+        "thumbUrl": "/images/popup-project-4.jpg",
+        "title": "Mobile App Design",
+        "subTitle": "Web Design, App Design",
+        "details": {
+          "title": "Website Design for Marketing Agency Startup",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br>xcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "type": "Website",
+          "langages": "PHP, HTML, CSS, JS",
+          "platform": "WordPress",
+          "country": "USA",
+          "url": "www.example.com"
+        }
+      },
+      {
+        "thumbUrl": "/images/popup-project-5.jpg",
+        "title": "Website Design",
+        "subTitle": "Web Design, App Design",
+        "details": {
+          "title": "Website Design for Marketing Agency Startup",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br>xcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "type": "Website",
+          "langages": "PHP, HTML, CSS, JS",
+          "platform": "WordPress",
+          "country": "USA",
+          "url": "www.example.com"
+        }
+      },
+      {
+        "thumbUrl": "/images/popup-project-6.jpg",
+        "title": "Website Design",
+        "subTitle": "Web Design, App Design",
+        "details": {
+          "title": "Website Design for Marketing Agency Startup",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br>xcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "type": "Website",
+          "langages": "PHP, HTML, CSS, JS",
+          "platform": "WordPress",
+          "country": "USA",
+          "url": "www.example.com"
+        }
+      }
+    ]
+  },
+  "service": {
+    "sectionHeading": {
+      "miniTitle": "SERVICES",
+      "title": "Design <span>services</span> I am providing"
+    },
+    "allService": [
+      {
+        "imgUrl": "/images/service-01.jpg",
+        "title": "Website Design",
+        "subTitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
+        "icon": "bi:brush-fill",
+        "ratings": 5
+      },
+      {
+        "imgUrl": "/images/service-02.jpg",
+        "title": "Website Design",
+        "subTitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
+        "icon": "bi:code-square",
+        "ratings": 4.5
+      },
+      {
+        "imgUrl": "/images/service-03.jpg",
+        "title": "SEO Marketing",
+        "subTitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
+        "icon": "bi:speedometer2",
+        "ratings": 5
+      },
+      {
+        "imgUrl": "/images/service-04.jpg",
+        "title": "Graphic Design",
+        "subTitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
+        "icon": "bi:palette",
+        "ratings": 5
+      }
+    ]
+  },
+  "experience": {
+    "sectionHeading": {
+      "miniTitle": "experiencia",
+      "title": "Experiencia <span>Laboral</span>"
+    },
+    "allExperience": [
+      {
+        "designation": "Full-stack Developer",
+        "company": "REMOTO",
+        "duration": "JUL 2022 - PRESENT",
+        "jobType": "Full time",
+        "companyTitle": "INFLUYE",
+        "companyDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ."
+      },
+      {
+        "designation": "Full-stack Developer",
+        "company": "REMOTO",
+        "duration": "MAR 2022 - JUN 2022",
+        "jobType": "Full time",
+        "companyTitle": "PROMARKETING",
+        "companyDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ."
+      },
+      {
+        "designation": "Full-stack Developer",
+        "company": "REMOTO",
+        "duration": "AGO 2021 - FEB 2022",
+        "jobType": "Full time",
+        "companyTitle": "AEURUS",
+        "companyDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ."
+      },
+      {
+        "designation": "Full-stack Developer",
+        "company": "REMOTO",
+        "duration": "MAY 2021 - AGO 2021",
+        "jobType": "Full time",
+        "companyTitle": "KTI INGENIERÍA",
+        "companyDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ."
+      }
+    ]
+  },
+  "testimonial": {
+    "sectionHeading": {
+      "miniTitle": "Testimonial",
+      "title": "Over <span>8,000+</span> <br /> PEOPLE TRUST ME"
+    },
+    "allTestimonial": [
+      {
+        "reviewText": "Donec tellus sem, tempor ac purus a, porttitor lobortis purus. Etiam quis nisl eget ex pulvinar consectetur. Suspendisse potenti. Cras non elementum risus. Fusce massa tellus, consequat a rutrum et, aliquam a lacus. Quisque viverra egestas tincidunt. Nunc nec nisi sed enim consectetur ullamcorper. Vestibulum at neque tortor. Pellentesque urna enim, ultricies at tortor eu, elementum egestas leo. In hac habitasse platea dictumst.",
+        "avatarImg": "/images/avatar-1.jpg",
+        "avatarName": "Pamela Anders",
+        "avatarCompany": "Company Name"
+      },
+      {
+        "reviewText": "Donec tellus sem, tempor ac purus a, porttitor lobortis purus. Etiam quis nisl eget ex pulvinar consectetur. Suspendisse potenti. Cras non elementum risus. Fusce massa tellus, consequat a rutrum et, aliquam a lacus. Quisque viverra egestas tincidunt. Nunc nec nisi sed enim consectetur ullamcorper. Vestibulum at neque tortor. Pellentesque urna enim, ultricies at tortor eu, elementum egestas leo. In hac habitasse platea dictumst.",
+        "avatarImg": "/images/avatar-2.jpg",
+        "avatarName": "Pamela Anders",
+        "avatarCompany": "Company Name"
+      },
+      {
+        "reviewText": "Donec tellus sem, tempor ac purus a, porttitor lobortis purus. Etiam quis nisl eget ex pulvinar consectetur. Suspendisse potenti. Cras non elementum risus. Fusce massa tellus, consequat a rutrum et, aliquam a lacus. Quisque viverra egestas tincidunt. Nunc nec nisi sed enim consectetur ullamcorper. Vestibulum at neque tortor. Pellentesque urna enim, ultricies at tortor eu, elementum egestas leo. In hac habitasse platea dictumst.",
+        "avatarImg": "/images/avatar-3.jpg",
+        "avatarName": "Pamela Anders",
+        "avatarCompany": "Company Name"
+      }
+    ]
+  },
+  "contact": {
+    "sectionHeading": {
+      "title": "Conversemos",
+      "subTitle": "Desde proyectos freelance hasta trabajos a largo plazo, estoy listo para el próximo reto profesional"
+    },
+    "contactImg": "/images/contact-us.png",
+    "contactInfo": [
+      { "title": "Email", "email": "ramirosaezsa@gmail.com" },
+      { "title": "Phone", "tel": "+569 3592 6523" }
+    ]
+  }
+}
