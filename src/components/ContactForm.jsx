@@ -1,6 +1,8 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import { useForm, ValidationError } from '@formspree/react';
 
 export default function ContactForm() {
+  const [state, handleSubmit] = useForm("xvojnaln");
   const [loading, setLoading] = useState(false);
   const [formData, setFormData] = useState({
     name: '',
@@ -18,7 +20,13 @@ export default function ContactForm() {
     }));
   };
 
-  const onSubmit = async event => {
+  useEffect(() => {
+    if (state.succeeded) {
+      setFormData({ name: '', email: '', subject: '', message: '' });
+    }
+  }, [state.succeeded]);
+
+  /* const onSubmit = async event => {
     event.preventDefault();
     setLoading(true);
     const formData = new FormData(event.target);
@@ -28,7 +36,7 @@ export default function ContactForm() {
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
 
-    const res = await fetch('https://api.web3forms.com/submit', {
+    const res = await fetch('https://formspree.io/f/xvojnaln', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -41,14 +49,16 @@ export default function ContactForm() {
       setFormData({ name: '', email: '', subject: '', message: '' });
       setLoading(false);
     }
-  };
+  }; */
+
   return (
-    <form id="contact-form" onSubmit={onSubmit}>
+    <form id="contact-form" onSubmit={handleSubmit}>
       <div className="row gx-3 gy-4">
         <div className="col-md-6">
           <div className="form-group">
             <label className="form-label">Tu nombre</label>
             <input
+              id="name"
               name="name"
               placeholder="Nombre *"
               className="form-control"
@@ -63,6 +73,7 @@ export default function ContactForm() {
           <div className="form-group">
             <label className="form-label">Tu Email</label>
             <input
+              id="email"
               name="email"
               placeholder="Email *"
               className="form-control"
@@ -77,6 +88,7 @@ export default function ContactForm() {
           <div className="form-group">
             <label className="form-label">Asunto</label>
             <input
+              id="subject"
               name="subject"
               placeholder="Asunto *"
               className="form-control"
@@ -91,6 +103,7 @@ export default function ContactForm() {
           <div className="form-group">
             <label className="form-label">Tu mensaje</label>
             <textarea
+              id="message"
               name="message"
               placeholder="Mensaje *"
               rows={4}
@@ -106,6 +119,7 @@ export default function ContactForm() {
             <button
               className={`px-btn w-100 ${loading ? 'disabled' : ''}`}
               type="submit"
+              disabled={state.submitting}
             >
               {loading ? 'Enviando...' : 'Enviar'}
             </button>
