@@ -32,8 +32,8 @@ export default function Header() {
               className="logo-light"
               title
               alt="Logo"
-              src="/images/fullstack-modified.png"
-              style={{ width: '100px', height: 'auto' }}
+              src="/images/logo.png"
+              style={{ width: '120px', height: 'auto' }}
             />
           </Link>
         </div>
