@@ -59,7 +59,7 @@
     }
   ],
   "about": {
-    "imgSrc": "/images/about-me.png",
+    "imgSrc": "/images/about-me2.png",
     "miniTitle": "Sobre mí",
     "title": "Aprender es <span>AVANZAR</span>",
     "description": "Inicié mi camino en programación a los 18 años durante mis estudios de Ingeniería en la Universidad del Bío-Bío. A lo largo de mi carrera, he superado desafíos, evolucionando de Laravel y jQuery a Laravel y Vue.js en desarrollo web. Con experiencia en diversos proyectos, desde aserraderos hasta casinos, destaco tanto en trabajo en equipo como en proyectos individuales. Soy autodidacta, entusiasta y siempre en búsqueda de aprender. Actualmente, trabajo como desarrollador fullstack, y además, de manera autodidacta, estudio para ampliar mis habilidades. ✌️",
