@@ -69,6 +69,17 @@
         "number": 2
       }
     ],
+    "skills": [
+      "PHP",
+      "Javascript",
+      "Laravel",
+      "jQuery",
+      "VueJs",
+      "API",
+      "Postman",
+      "SQL",
+      "MySql"
+    ],
     "btnText": "Contáctame",
     "btnUrl": "contactus"
   },
@@ -209,9 +220,10 @@
       {
         "designation": "Full-stack Developer",
         "company": "REMOTO",
-        "duration": "JUL 2022 - PRESENT",
+        "duration": "JUL 2022 - PRESENTE",
         "jobType": "Full time",
         "companyTitle": "INFLUYE",
+        "companyImage": "/images/influye.png",
         "companyDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ."
       },
       {
@@ -219,7 +231,8 @@
         "company": "REMOTO",
         "duration": "MAR 2022 - JUN 2022",
         "jobType": "Full time",
-        "companyTitle": "PROMARKETING",
+        "companyTitle": "PROMARKETING (Latamwin)",
+        "companyImage": "/images/latamwin.png",
         "companyDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ."
       },
       {
@@ -228,14 +241,16 @@
         "duration": "AGO 2021 - FEB 2022",
         "jobType": "Full time",
         "companyTitle": "AEURUS",
+        "companyImage": "/images/aeurus.png",
         "companyDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ."
       },
       {
         "designation": "Full-stack Developer",
-        "company": "REMOTO",
+        "company": "PRESENCIAL",
         "duration": "MAY 2021 - AGO 2021",
         "jobType": "Full time",
         "companyTitle": "KTI INGENIERÍA",
+        "companyImage": "/images/kti.png",
         "companyDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ."
       }
     ]

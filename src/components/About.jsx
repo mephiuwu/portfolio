@@ -4,7 +4,7 @@ import parser from 'html-react-parser';
 import { Link as ScrollLink } from 'react-scroll';
 
 export default function About({ data }) {
-  const { imgSrc, miniTitle, title, description, funfacts, btnText, btnUrl } =
+  const { imgSrc, miniTitle, title, description, funfacts, skills, btnText, btnUrl } =
     data;
   return (
     <section className="about-section section" id="about">
@@ -55,6 +55,13 @@ export default function About({ data }) {
                 {title && <h2>{parser(title)}</h2>}
               </div>
               <p>{description}</p>
+              <div className="skills-container">
+                {skills?.map((item, index) => (
+                  <div className="r-box" key={index}>
+                    <label>{item}</label>
+                  </div>
+                ))}
+              </div>
               <div className="review-box">
                 {funfacts?.map((item, index) => (
                   <div className="r-box" key={index}>
@@ -62,7 +69,7 @@ export default function About({ data }) {
                       {item.number}
                       <span>+</span>
                     </h3>
-                    <label>{item.title}</label>
+                    {item.title}
                   </div>
                 ))}
               </div>

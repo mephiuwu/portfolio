@@ -23,7 +23,7 @@ export default function Experience({ data }) {
               <div className="ex-box">
                 <div className="row gy-4">
                   <div className="col-md-4 col-lg-3">
-                    <div className="ex-left">
+                    <div className="ex-left" style={{ backgroundImage: `url(${item.companyImage})`, backgroundSize: '50%', backgroundPosition: 'center center', backgroundRepeat: 'no-repeat', margin: '20px'}}>
                       <h4>{item.designation}</h4>
                       <span>{item.company}</span>
                       <p>{item.duration}</p>
