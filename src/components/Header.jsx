@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import { Link as ScrollLink } from 'react-scroll';
 
 export default function Header() {
@@ -27,7 +27,7 @@ export default function Header() {
     >
       <div className="container">
         <div className="logo">
-          <Link className="navbar-brand" href="#">
+          <ScrollLink className="navbar-brand" to="home" spy={true} smooth={true} duration={500} style={{ cursor: 'pointer' }}>
             <img
               className="logo-light"
               title
@@ -35,7 +35,7 @@ export default function Header() {
               src="/images/logo.png"
               style={{ width: '120px', height: 'auto' }}
             />
-          </Link>
+          </ScrollLink>
         </div>
         {/* / */}
         <ul className="main-menu">
