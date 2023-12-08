@@ -2,9 +2,9 @@
   "hero": {
     "imgUrl": "/images/OIG_2.png",
     "name": "Ramiro Sáez",
-    "heading": "¡Hoola! Soy Ramiro",
+    "heading": "¡Hola! Soy Ramiro",
     "typingText": ["Desarrollador Backend", 1500, "Desarrollador Frontend", 1500],
-    "description": "Soy ingeniero informático. Mi experiencia se ha centrado en el trabajo colaborativo para el mantenimiento y mejora continua de aplicaciones. Utilizo metodologías ágiles, destacando en el desarrollo con Vue.js y Laravel para crear soluciones innovadoras y eficientes.",
+    "description": "Ingeniero informático con 2+ años de experiencia en desarrollo. Especializado en Vue.js y Laravel, aplico metodologías ágiles para crear soluciones eficientes. ¡Bienvenido a mi espacio digital, donde la tecnología y la creatividad convergen para construir el futuro digital! 🚀",
     "btnText": "Contáctame",
     "btnUrl": "contactus"
   },
@@ -22,8 +22,26 @@
   ],
   "brands": [
     {
+      "src": "/images/Php.png",
+      "alt": "PHP",
+      "height" : "100px",
+      "maxWidth" : "160px"
+    },
+    {
+      "src": "/images/Javascript.png",
+      "alt": "JavaScript",
+      "height" : "100px",
+      "maxWidth" : "120px"
+    },
+    {
       "src": "/images/Laravel.png",
       "alt": "Laravel",
+      "height" : "100px",
+      "maxWidth" : "120px"
+    },
+    {
+      "src": "/images/jquery.png",
+      "alt": "jQuery",
       "height" : "100px",
       "maxWidth" : "120px"
     },
@@ -34,20 +52,8 @@
       "maxWidth" : "120px"
     },
     {
-      "src": "/images/Php.png",
-      "alt": "PHP",
-      "height" : "100px",
-      "maxWidth" : "160px"
-    },
-    {
       "src": "/images/Mysql.png",
       "alt": "MySql",
-      "height" : "100px",
-      "maxWidth" : "120px"
-    },
-    {
-      "src": "/images/Javascript.png",
-      "alt": "JavaScript",
       "height" : "100px",
       "maxWidth" : "120px"
     },
@@ -56,13 +62,19 @@
       "alt": "Postman",
       "height" : "100px",
       "maxWidth" : "120px"
+    },
+    {
+      "src": "/images/git.png",
+      "alt": "GIT",
+      "height" : "100px",
+      "maxWidth" : "120px"
     }
   ],
   "about": {
     "imgSrc": "/images/about-me2.png",
     "miniTitle": "Sobre mí",
-    "title": "Aprender es <span>AVANZAR</span>",
-    "description": "Inicié mi camino en programación a los 18 años durante mis estudios de Ingeniería en la Universidad del Bío-Bío. A lo largo de mi carrera, he superado desafíos, evolucionando de Laravel y jQuery a Laravel y Vue.js en desarrollo web. Con experiencia en diversos proyectos, desde aserraderos hasta casinos, destaco tanto en trabajo en equipo como en proyectos individuales. Soy autodidacta, entusiasta y siempre en búsqueda de aprender. Actualmente, trabajo como desarrollador fullstack, y además, de manera autodidacta, estudio para ampliar mis habilidades. ✌️",
+    "title": "Un <span>poco</span> de mi",
+    "description": "Tengo 25 años, comencé mi camino en programación a los 18 años durante mis estudios de Ingeniería en la Universidad del Bío-Bío. A lo largo de mi carrera, he superado desafíos, aprendiendo herramientas de desarrollo web. Con experiencia en diversos proyectos, desde aserraderos hasta casinos, destaco tanto en trabajo en equipo como en proyectos individuales. Soy autodidacta, entusiasta y siempre en búsqueda de aprender. Actualmente, trabajo como desarrollador fullstack, y además, de manera autodidacta, estudio para ampliar mis habilidades. ✌️",
     "funfacts": [
       {
         "title": "Años de experiencia",
@@ -78,7 +90,8 @@
       "API",
       "Postman",
       "SQL",
-      "MySql"
+      "MySql",
+      "GIT"
     ],
     "btnText": "Contáctame",
     "btnUrl": "contactus"
@@ -224,7 +237,7 @@
         "jobType": "Full time",
         "companyTitle": "INFLUYE",
         "companyImage": "/images/influye.png",
-        "companyDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ."
+        "companyDescription": "En mi labor actual, gestiono mantenimiento y mejoras constantes en el software, abordando retroalimentación interna y de clientes. Empleo Laravel en el backend y Vue.js en el frontend. Se utiliza metodología ágil, realizando reuniones diarias informando avances y resolviendo preguntas. Git para control de versiones "
       },
       {
         "designation": "Full-stack Developer",
