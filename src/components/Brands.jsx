@@ -3,11 +3,11 @@ import Slider from 'react-slick';
 
 export default function Brands({ data }) {
   var settings = {
-    dots: false,
+    dots: true,
     arrows: false,
     infinite: true,
-    autoplay: false,
-    autoplaySpeed: 4000,
+    autoplay: true,
+    autoplaySpeed: 3000,
     speed: 1000,
     slidesToShow: 5,
     slidesToScroll: 1,

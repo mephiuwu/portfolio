@@ -1,15 +1,20 @@
 import React, { useEffect, useState } from 'react';
-import { useForm, ValidationError } from '@formspree/react';
+import { useForm } from '@formspree/react';
+import Swal from 'sweetalert2';
 
 export default function ContactForm() {
   const [state, handleSubmit] = useForm("xvojnaln");
-  const [loading, setLoading] = useState(false);
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     subject: '',
     message: '',
   });
+
+  const dict = {
+    'TYPE_EMAIL': 'Email no válido',
+    'OK': 'Email enviado con éxito',
+  };
 
   // Handler for input field changes
   const handleInputChange = event => {
@@ -22,34 +27,42 @@ export default function ContactForm() {
 
   useEffect(() => {
     if (state.succeeded) {
+      Swal.fire({
+        icon: 'success',
+        text: dict['OK'],
+        position: 'bottom-end',
+        toast: true,
+        timer: 3000,
+        showConfirmButton: false
+      });
       setFormData({ name: '', email: '', subject: '', message: '' });
     }
-  }, [state.succeeded]);
 
-  /* const onSubmit = async event => {
-    event.preventDefault();
-    setLoading(true);
-    const formData = new FormData(event.target);
+    if (state.errors) {
+      const err = state.errors.fieldErrors;
 
-    formData.append('access_key', '6d7bc3fc-6190-43c5-8298-89ac5ef7494f');
+      err.forEach((value, key) => {
 
-    const object = Object.fromEntries(formData);
-    const json = JSON.stringify(object);
+        setFormData(prevFormData => ({
+          ...prevFormData,
+          [key]: '',
+        }));
 
-    const res = await fetch('https://formspree.io/f/xvojnaln', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        Accept: 'application/json',
-      },
-      body: json,
-    }).then(res => res.json());
+        const code = value[0].code;
 
-    if (res.success) {
-      setFormData({ name: '', email: '', subject: '', message: '' });
-      setLoading(false);
+        Swal.fire({
+          icon: 'error',
+          text: dict[code],
+          position: 'bottom-end',
+          toast: true,
+          timer: 3000,
+          showConfirmButton: false
+        });
+      });
+
     }
-  }; */
+
+  }, [state.succeeded, state.errors]);
 
   return (
     <form id="contact-form" onSubmit={handleSubmit}>
@@ -117,11 +130,11 @@ export default function ContactForm() {
         <div className="col-md-12">
           <div className="send">
             <button
-              className={`px-btn w-100 ${loading ? 'disabled' : ''}`}
+              className={`px-btn w-100`}
               type="submit"
               disabled={state.submitting}
             >
-              {loading ? 'Enviando...' : 'Enviar'}
+              Enviar
             </button>
           </div>
         </div>
